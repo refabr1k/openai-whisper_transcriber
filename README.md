@@ -81,7 +81,7 @@ if __name__ == '__main__':
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buu's Audio Transcriber</title>
+    <title>Audio Transcriber</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -110,7 +110,7 @@ if __name__ == '__main__':
 </head>
 <body>
     <div class="container">
-        <h1>Buu's Audio Transcriber</h1>
+        <h1>Audio Transcriber</h1>
         <form id="transcription-form">
             <label for="file">Select Audio File:</label>
             <input type="file" id="file" name="file" accept="audio/*" required><br>
