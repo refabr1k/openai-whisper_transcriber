@@ -7,7 +7,7 @@ Simple openai-whisper transcriber to translate audio recordings (focused for sim
 2. Save the 2 files below in the same folder and run `python server.py`
 
 ## server.py
-```
+```python
 from flask import Flask, request, jsonify, send_file, send_from_directory
 import whisper
 import os
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 
 ## index.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
