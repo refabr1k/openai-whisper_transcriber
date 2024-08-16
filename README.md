@@ -1,10 +1,14 @@
 # openai-whisper_transcriber
 Simple openai-whisper transcriber to translate audio recordings (focused for simplified chinese) script served on a python script
 
+![image](https://github.com/user-attachments/assets/56e534b9-ebf1-4527-ae6a-0d180ffeac22)
+
 ## Readme:
 
 1. setup whisper (see https://gist.github.com/refabr1k#setting-up-torch-with-cuda-if-you-have-a-nvidia-gfx-card)
 2. Save the 2 files below in the same folder and run `python server.py`
+3. Navigate to the configured URL (http://127.0.0.1:5000)
+4. Select options to transcribe and submit. Transcribed file will be available to download after transcription.
 
 ## server.py
 ```python
@@ -164,6 +168,3 @@ if __name__ == '__main__':
 </html>
 ```
 
-![image](https://github.com/user-attachments/assets/56e534b9-ebf1-4527-ae6a-0d180ffeac22)
-
-Transcribed file will be available to download after transcription.
